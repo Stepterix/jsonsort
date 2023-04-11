@@ -7,7 +7,9 @@ try:
 except:
     print("That file does not exist")
     quit()
-    
+
+print("Selected year is " + selyear)
+
 data = json.load(jfile)
 
 dd=[]
